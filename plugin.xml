@@ -33,7 +33,7 @@
 
     <!-- android -->
     <platform name="android">
-
+        <preference name="android-minSdkVersion" value="15" />
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
                 <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
